@@ -1,0 +1,127 @@
+/* Add CSS styles for the booking section and its elements */
+/* .booking {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.booking h1 {
+    font-size: 32px;
+}
+
+.booking p {
+    font-size: 18px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #009688;
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: #007f74;
+} */
+
+/* Booking form styles */
+
+.booking {
+    background-color: #ffffff;
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .booking h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .booking p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .booking form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .booking .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .booking .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .booking .form-group input, select {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .booking .form-group input:focus, select:focus {
+    border-color: #009688;
+  }
+  
+  .booking .cta-button {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .booking .cta-button button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007f74;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .booking .cta-button button:hover {
+    background-color: #0069d9;
+  }
+  

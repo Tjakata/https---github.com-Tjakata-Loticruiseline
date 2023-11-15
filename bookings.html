@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bookings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Book Your Cruise | Loti Cruiseline</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/cruise-logo.png" alt="Cruise Line Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Explore</a>
+                    <div class="dropdown-content">
+                        <a href="about.html">Features & benefits</a>
+                        <a href="cruise details.html">Details</a>
+                        <a href="testimonials.html">Testimonials</a>
+                    </div>
+                </li>
+                </div>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking">
+        <div class="container">
+            <h1>Book Your Cruise</h1>
+            <p>Fill out the form below to start your cruise adventure.</p>
+
+            <form id="booking-form" action="submit_booking.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="destination">Select Destination:</label>
+                    <select id="destination" name="destination">
+                        <option value="caribbean">Caribbean</option>
+                        <option value="mediterranean">Mediterranean</option>
+                        <option value="caribbean">Durban</option>
+                        <option value="mediterranean">Cape Town</option>
+                        <!-- Add more destination options here -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="passengers">Number of Passengers:</label>
+                    <input type="number" id="passengers" name="passengers" min="1" required>
+                </div>
+
+                <div class="cta-button">
+                    <button type="submit">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer >
+        <div class="container-fluid">
+            <ul class="icons">
+                <li><a href="https://web.facebook.com/" class="fa fa-facebook" style="color: grey"></a></li>
+                <li><a href="https://www.instagram.com/" class="fa fa-instagram" style="color: grey"></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            &copy; 2023 Loti Cruiseline. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

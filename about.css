@@ -1,0 +1,169 @@
+ /* Add your existing CSS styles here */
+
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ceo,
+  .executives,
+  .management,
+  .staff {
+    margin-bottom: 40px;
+  }
+  
+  .ceo h2,
+  .executives h2,
+  .management h2,
+  .staff h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .employee {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .employee img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .employee p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ceo .employee:before,
+  .executives .employee:before,
+  .management .employee:before,
+  .staff .employee:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #333;
+    height: 40px; 
+    width: 0;
+  }
+  
+  .ceo .employee:before {
+    top: 100%;
+  }
+  
+  .ceo .employee:after,
+  .executives .employee:after,
+  .management .employee:after,
+  .staff .employee:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #333;
+    height: 20px; 
+    width: 0;
+  }
+
+/* Add your existing CSS styles here */
+
+.features-benefits-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .features-benefits h1,
+  .about h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .features-benefits,
+  .about {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4%; /* Adjust the margin as needed */
+  }
+  
+  .features-list,
+  .benefits {
+    width: 100%; /* Set width to 100% for smaller screens */
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0; /* Remove margin for smaller screens */
+  }
+  
+  .features-list h2,
+  .benefits h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .features-list ul,
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-list ul li,
+  .benefits ul li {
+    margin-bottom: 10px;
+  }
+
+  .features-list img {
+    float: right;
+    width: 40%;
+    padding-inline: 15px;
+  }
+
+  .benefits img {
+    float: right;
+    width: 40%;
+    padding-inline: 15px;
+  }
+  
+  /* .visuals img {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    align-self: center;
+    
+  } */
+  
+  .cta-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cta-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  

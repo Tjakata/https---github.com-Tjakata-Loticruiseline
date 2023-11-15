@@ -1,0 +1,301 @@
+/* style.css
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 40px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:
+   
+  160px;
+    box-shadow: 0px
+   
+  8px
+   
+  16px
+   
+  0px
+   
+  rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content
+   
+  a {
+    color: black;
+    padding: 12px
+   
+  16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content
+   
+  a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover
+   
+  .dropdown-content {
+    display: block;
+  }  
+  
+  .hero {
+    background-image: url(images/Cruice-ship.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #009688;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #007f74;
+}
+  
+  .about {
+    padding: 20px;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+  }
+  
+  .features {
+    padding: 20px;
+  }
+  
+  .features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+  }
+  
+  .features li:before {
+    content: "✓";
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  .testimonials {
+    padding: 20px;
+  }
+  
+  .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.2em;
+  }
+  
+  .testimonial span {
+    font-style: italic;
+    font-size: 0.8em;
+  }
+  
+  footer {
+    list-style: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  footer ul {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 0;
+  }
+   */
+
+ /* Features & Benefits section styles */
+
+.features-benefits {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-benefits h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.features-list {
+  margin-bottom: 40px;
+}
+
+.features-list h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-list ul li {
+  margin-bottom: 10px;
+}
+
+.benefits {
+  margin-bottom: 40px;
+}
+
+.benefits h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.benefits p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.visuals {
+  margin-bottom: 40px;
+}
+
+.visuals .visual-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.visuals .visual-item img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.visuals .visual-item p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.cta-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.cta-button a:hover {
+  background-color: #0069d9;
+}

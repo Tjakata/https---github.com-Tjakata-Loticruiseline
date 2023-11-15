@@ -1,0 +1,97 @@
+/* Add CSS styles for the contact section and its elements */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .address,
+  .contact-details {
+    float: left;
+    width: 50%;
+  }
+  
+  .map {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  /* Inquiry form styles */
+  .inquiry-form {
+    clear: both;
+    margin-top: 50px;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #007f74;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  /* Social media styles */
+  .social-media {
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    margin-right: 20px;
+    color: #333;
+    font-size: 18px;
+  }
